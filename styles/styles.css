@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:700|Rubik:700');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background-color: #e57373;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+}
+
+p {
+    margin-top: 1.5vw;
+}
+
+@media (min-width: 1200px) {
+    p {
+        margin-top: 1vw;
+    }
+}
+
+button, input, textarea, p {
+    font-family: inherit;
+    font-size: 4.5vw;
+}
+
+@media (min-width: 1200px) {
+    button, input, textarea, p {
+        font-size: 2.5vw;
+    }
+}
+
+input, textarea {
+    color: #313131;
+}
+
+input:focus, button:focus {
+    outline: 0;
+}
+
+button {
+    color: #fff;
+    background-color: #313131;
+    cursor: pointer;
+    transition: color ease-in-out 0.25s, background-color ease-in-out 0.25s;
+}
+
+button:hover, button:focus, button:active {
+    background-color: #513131;
+}
+
+#content {
+    padding-top: 5vh;
+    text-align: center;
+    width: 96%;
+    max-width: 96%;
+}
+
+@media (min-width: 1200px) {
+    #content {
+        padding-top: 20vh;
+        width: width: 22vw;
+        max-width: width: 22vw;
+    }
+}
+
+#hero-text {
+    font-size: 9.25vw;
+    margin-top: 0;
+    margin-bottom: 2vw;
+}
+
+@media (min-width: 1200px) {
+    #hero-text {
+        font-size: 5vw;
+    }
+}
+
+#dollar-amount, #btn-clear, #btn-submit {
+    height: 12vw;
+}
+
+@media (min-width: 1200px) {
+    #dollar-amount, #btn-clear, #btn-submit {
+        height: 4vw;
+    }
+}
+
+#dollar-amount {
+    display: block;
+    margin: 0 auto;    
+    width: 96%;
+    padding-right: 2%;
+    padding-left: 2%;
+    text-align: right;
+}
+
+#dollar-amount::selection {
+    background: #e57373;
+}
+
+#btn-clear, #btn-submit {
+    display: inline-block;
+    width: 49.5%;
+    margin-top: 1%;
+}
+
+#btn-clear {
+    margin-right: 0.5%;
+    color: #e57373;
+}
+
+#btn-clear:hover, #btn-clear:focus, #btn-clear:active {
+    color: #e53939;
+}
+
+#btn-submit {
+    margin-left: 0.5%;
+}
+
+@media (min-width: 1200px) {
+    #dollar-amount { 
+        width: 22vw;
+        padding-right: 1vw;
+        padding-left: 1vw;
+    }
+
+    #btn-clear, #btn-submit {
+        width: 11.5vw;
+        margin-top: 1vw;
+    }
+
+    #btn-clear {
+        margin-right: 0.5vw;
+    }
+
+    #btn-submit {
+        margin-left: 0.5vw;
+    }
+}
+
+.hidden {
+    visibility: hidden;
+}
+
