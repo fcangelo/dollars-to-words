@@ -17,7 +17,12 @@ body {
     justify-content: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
     font-family: 'Rubik', sans-serif;
     text-transform: uppercase;
 }
@@ -32,22 +37,30 @@ p {
     }
 }
 
-button, input, textarea, p {
+button, 
+input, 
+textarea, 
+p {
     font-family: inherit;
     font-size: 4.5vw;
 }
 
 @media (min-width: 1200px) {
-    button, input, textarea, p {
+    button, 
+    input, 
+    textarea, 
+    p {
         font-size: 2.5vw;
     }
 }
 
-input, textarea {
+input, 
+textarea {
     color: #313131;
 }
 
-input:focus, button:focus {
+input:focus, 
+button:focus {
     outline: 0;
 }
 
@@ -58,7 +71,9 @@ button {
     transition: color ease-in-out 0.25s, background-color ease-in-out 0.25s;
 }
 
-button:hover, button:focus, button:active {
+button:hover, 
+button:focus, 
+button:active {
     background-color: #513131;
 }
 
@@ -89,12 +104,16 @@ button:hover, button:focus, button:active {
     }
 }
 
-#dollar-amount, #btn-clear, #btn-submit {
+#dollar-amount, 
+#btn-clear, 
+#btn-submit {
     height: 12vw;
 }
 
 @media (min-width: 1200px) {
-    #dollar-amount, #btn-clear, #btn-submit {
+    #dollar-amount, 
+    #btn-clear, 
+    #btn-submit {
         height: 4vw;
     }
 }
@@ -112,7 +131,8 @@ button:hover, button:focus, button:active {
     background: #e57373;
 }
 
-#btn-clear, #btn-submit {
+#btn-clear, 
+#btn-submit {
     display: inline-block;
     width: 49.5%;
     margin-top: 1%;
@@ -123,7 +143,9 @@ button:hover, button:focus, button:active {
     color: #e57373;
 }
 
-#btn-clear:hover, #btn-clear:focus, #btn-clear:active {
+#btn-clear:hover, 
+#btn-clear:focus, 
+#btn-clear:active {
     color: #e53939;
 }
 
@@ -138,7 +160,8 @@ button:hover, button:focus, button:active {
         padding-left: 1vw;
     }
 
-    #btn-clear, #btn-submit {
+    #btn-clear, 
+    #btn-submit {
         width: 11.5vw;
         margin-top: 1vw;
     }
@@ -155,4 +178,3 @@ button:hover, button:focus, button:active {
 .hidden {
     visibility: hidden;
 }
-
